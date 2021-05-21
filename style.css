@@ -14,11 +14,28 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: auto;
+    margin-top: 5%;
     color: #fff;
 }
 
-.btn {
+.campos {
+    padding: 3px;
+}
+
+
+#frase-campo2 {
+    margin-bottom: 0.8em;
+}
+
+#btn {
     padding: 5px;
     
+}
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+    span {
+        width: 60%;
+    }
+
 }
